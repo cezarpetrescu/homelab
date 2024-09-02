@@ -1,0 +1,4146 @@
+[2024-09-02T10:25:02.869Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:25:02.925Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:25:03.545Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:25:03.994Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:03.996Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.022Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:04.023Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.075Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:25:04.076Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.098Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:04.103Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.169Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:04.182Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.186Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:04.189Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.231Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:25:04.238Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:25:04.245Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:25:04.260Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.269Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:04.278Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.716Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:25:04.716Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.717Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:25:04.743Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:25:04.746Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.746Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:25:04.818Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:25:04.818Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.818Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:25:04.849Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:25:04.849Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.849Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:25:04.960Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:25:04.960Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:04.960Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:25:04.994Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:25:04.994Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.054Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:25:05.054Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.149Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:25:05.149Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.190Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:25:05.195Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.197Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:25:05.255Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:25:05.255Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.260Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:25:05.313Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:25:05.322Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.323Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:25:05.422Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:25:05.422Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.422Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:25:05.423Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:05.504Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:25:05.504Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.369Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:33.370Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.379Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:33.385Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.418Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:33.419Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.430Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:33.431Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.524Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:33.525Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.534Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:25:33.536Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.562Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:33.564Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:33.583Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:25:33.585Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.156Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:46.156Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.162Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:46.162Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.193Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:46.194Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.205Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:46.205Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.257Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:46.258Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.270Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:25:46.274Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.291Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:25:46.291Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.323Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:25:46.323Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:46.346Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:25:46.381Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:25:46.392Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:25:47.475Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:25:47.476Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.476Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:25:47.483Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:25:47.483Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.483Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:25:47.562Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:25:47.562Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.563Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:25:47.573Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:25:47.574Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.574Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:25:47.648Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:25:47.649Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.649Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:25:47.722Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:25:47.723Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.762Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:25:47.762Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.818Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:25:47.821Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.867Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:25:47.867Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.867Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:25:47.896Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:25:47.903Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.906Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:25:47.930Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:25:47.931Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:47.931Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:25:48.018Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:25:48.020Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:48.021Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:25:48.021Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:25:48.057Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:25:48.057Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.606Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:26:13.765Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:26:13.769Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:26:13.841Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:13.842Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.854Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:13.854Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.873Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:13.874Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.886Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:26:13.887Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.897Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:13.897Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.916Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:13.917Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.929Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:13.930Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:13.976Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:26:13.977Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.303Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:26:14.339Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:26:14.348Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.351Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:26:14.354Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:26:14.354Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.355Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:26:14.355Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.355Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:26:14.362Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:26:14.362Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.362Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:26:14.411Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:26:14.411Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.411Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:26:14.417Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:26:14.417Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.417Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:26:14.422Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:26:14.422Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.423Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:26:14.446Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:26:14.446Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.446Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:26:14.453Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:26:14.454Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.469Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:26:14.471Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.498Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:26:14.498Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.499Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:26:14.499Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.583Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:26:14.590Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.600Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:26:14.602Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:14.606Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:26:15.240Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:15.241Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.268Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:26:15.274Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:26:15.302Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:15.302Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.354Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:26:15.382Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:15.382Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.388Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:15.394Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.409Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:26:15.410Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.447Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:15.447Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.448Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:15.448Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.490Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:26:15.491Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.659Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:26:15.661Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.661Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:26:15.661Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:26:15.662Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.662Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:26:15.662Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:26:15.666Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.668Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:26:15.687Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:26:15.687Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.693Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:26:15.744Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:26:15.744Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.745Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:26:15.745Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:26:15.746Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.759Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:26:15.771Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.777Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:26:15.778Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:26:15.790Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.790Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:26:15.790Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.802Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:26:15.802Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.835Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:26:15.835Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.851Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:26:15.852Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.852Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:26:15.868Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:26:15.869Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.908Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:26:15.908Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:15.909Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:26:32.322Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:26:32.322Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:26:32.325Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:26:32.325Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:26:32.969Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:26:32.969Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:26:32.970Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:26:32.972Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:26:32.973Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:26:32.973Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:26:32.974Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:26:32.974Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:26:45.101Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:26:45.101Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.122Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:45.123Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.140Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:45.140Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.151Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:45.152Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.157Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:26:45.157Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.175Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:45.176Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.180Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:45.180Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:26:45.196Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:26:45.196Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.263Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:27:15.264Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.277Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:15.278Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.303Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:15.303Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.319Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:15.319Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.324Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:27:15.325Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.327Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:27:15.328Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.353Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:27:15.353Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.361Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:27:15.362Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.377Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:15.377Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.395Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:15.396Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:15.397Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:15.397Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:40.922Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:27:40.922Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:27:40.926Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:27:40.926Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:27:41.434Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:27:41.434Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:41.435Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:27:41.435Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:41.436Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:27:41.437Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:41.443Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:27:41.444Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:41.932Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:27:41.932Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:27:41.940Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:27:41.940Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:27:42.430Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:27:42.431Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:42.432Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:27:42.432Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:42.432Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:27:42.432Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:42.433Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:27:42.434Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:27:45.475Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:45.476Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.486Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:45.486Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.498Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:27:45.498Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.508Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:45.508Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.517Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:45.517Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.536Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:45.536Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.540Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:27:45.543Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:45.552Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:45.553Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.407Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:27:50.452Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:27:50.457Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:27:50.502Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:50.502Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.505Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:50.505Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.508Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:50.508Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.522Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:27:50.523Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.589Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:50.589Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.590Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:50.590Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.591Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:27:50.593Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.594Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:27:50.594Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.596Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:27:50.598Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.599Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:27:50.602Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:27:50.602Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.602Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:27:50.622Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:27:50.622Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.638Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:27:50.638Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.639Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:27:50.667Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:27:50.667Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.667Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:27:50.671Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:27:50.672Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.697Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:27:50.700Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.700Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:27:50.706Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:27:50.706Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.706Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:27:50.733Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:27:50.734Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.779Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:27:50.779Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.790Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:27:50.790Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.816Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:27:50.816Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.832Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:27:50.834Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.834Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:27:50.864Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:27:50.865Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:27:50.865Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:27:58.432Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:27:58.433Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:27:58.434Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:27:58.434Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:28:15.477Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:28:15.477Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.482Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:28:15.482Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.501Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:28:15.501Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.610Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:15.610Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.621Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:15.622Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.627Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:15.627Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.641Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:15.641Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.650Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:28:15.651Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.662Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:15.662Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.673Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:15.675Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:15.684Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:28:15.684Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.762Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:28:45.762Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.768Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:45.768Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.775Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:45.776Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.792Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:45.792Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.801Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:28:45.801Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.824Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:45.825Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.826Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:45.827Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:28:45.856Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:28:45.866Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:06.589Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:29:06.590Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:29:06.591Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:29:06.592Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:29:07.631Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:29:07.632Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:29:07.632Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:29:07.633Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:29:15.583Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:29:15.584Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.584Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:29:15.584Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.598Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:29:15.599Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.879Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:29:15.879Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.907Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:29:15.908Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.919Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:29:15.920Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.937Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:29:15.937Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.949Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:29:15.950Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.978Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:29:15.978Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:15.999Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:29:16.000Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:16.044Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:29:16.044Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:29:17.055Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:29:17.055Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:29:17.056Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:29:17.057Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:29:17.057Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:29:17.057Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:29:17.061Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:29:17.062Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:29:25.323Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:29:25.324Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:29:29.402Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:29:29.403Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:33:20.201Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:33:20.325Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:20.326Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.349Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:20.352Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.362Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:20.363Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.366Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:20.367Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.376Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:33:20.378Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:20.380Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.385Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:20.385Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.391Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:33:20.437Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:20.437Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.438Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:20.438Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.555Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:33:20.557Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.557Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:33:20.587Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:33:20.588Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.589Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:33:20.618Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:33:20.618Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.618Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:33:20.673Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:33:20.673Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.673Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:33:20.735Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:33:20.735Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.751Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:33:20.752Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.752Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:33:20.794Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:33:20.795Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.805Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:33:20.805Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.837Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:20.838Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.843Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:20.843Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.853Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:20.853Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.867Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:33:20.867Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.867Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:33:20.887Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:33:20.887Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:20.888Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:33:21.238Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:33:21.238Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:21.239Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:33:21.271Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:33:22.424Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:33:22.509Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:22.510Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.541Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:22.545Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.556Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:33:22.557Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:22.557Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.575Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:33:22.584Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:22.584Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.591Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:22.591Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.600Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:22.600Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.615Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:22.615Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.630Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:22.630Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.679Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:33:22.679Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.680Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:33:22.691Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:33:22.692Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.692Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:33:22.718Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:33:22.719Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.719Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:33:22.732Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:33:22.732Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.733Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:33:22.762Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:33:22.762Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.763Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:33:22.781Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:33:22.782Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.798Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:33:22.798Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.836Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:22.836Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.838Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:33:22.838Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.863Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:22.863Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.864Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:22.864Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.909Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:33:22.909Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.909Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:33:22.915Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:33:22.916Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.916Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:33:22.951Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:33:22.951Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:22.952Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:33:44.282Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-02T10:33:44.362Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:44.363Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.368Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:44.368Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.395Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:44.396Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.406Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:44.407Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.436Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:44.436Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.457Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:44.457Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.461Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:44.461Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.470Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:33:44.476Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-09-02T10:33:44.481Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:44.482Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.521Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list...
+[2024-09-02T10:33:44.521Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.521Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/alert/list
+[2024-09-02T10:33:44.532Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources...
+[2024-09-02T10:33:44.532Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.533Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://prx-prod-2.home.clcreative.de:8006/api2/json/cluster/resources
+[2024-09-02T10:33:44.550Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info...
+[2024-09-02T10:33:44.550Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.551Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/system/info
+[2024-09-02T10:33:44.559Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool...
+[2024-09-02T10:33:44.559Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.559Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://nas-prod-1.home.clcreative.de/api/v2.0/pool
+[2024-09-02T10:33:44.592Z] error: <httpProxy> Error calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json...
+[2024-09-02T10:33:44.593Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer-demo-1.srv-demo-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer-demo-1.srv-demo-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.593Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer-demo-1.srv-demo-1.home.clcreative.de/api/endpoints/2/docker/containers/json?all=1
+[2024-09-02T10:33:44.614Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/publicservices...
+[2024-09-02T10:33:44.614Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.631Z] error: <httpProxy> Error calling https://uptimekuma-prod-1.srv-prod-7.home.clcreative.de/api/status-page/heartbeat/publicservices...
+[2024-09-02T10:33:44.632Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND uptimekuma-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'uptimekuma-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.655Z] error: <httpProxy> Error calling https://prometheus-prod-1.srv-prod-1.home.clcreative.de/api/v1/targets...
+[2024-09-02T10:33:44.655Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prometheus-prod-1.srv-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prometheus-prod-1.srv-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.679Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:44.679Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.688Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:44.689Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.697Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:33:44.697Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.721Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/...
+[2024-09-02T10:33:44.722Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.722Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/core/users/?page_size=1
+[2024-09-02T10:33:44.736Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:33:44.737Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.737Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login
+[2024-09-02T10:33:44.761Z] error: <httpProxy> Error calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/...
+[2024-09-02T10:33:44.762Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik-prod-1.kube-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik-prod-1.kube-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:44.762Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://authentik-prod-1.kube-prod-1.home.clcreative.de/api/v3/events/events/per_month/?action=login_failed
+[2024-09-02T10:33:52.345Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:52.345Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.352Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:52.352Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.364Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:52.364Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.378Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:52.378Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.406Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:52.406Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.414Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:52.415Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.432Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:33:52.432Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:33:52.447Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:33:52.447Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.422Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:22.425Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.450Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:22.450Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.451Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:22.451Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.488Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:22.489Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.502Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:34:22.503Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.504Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:34:22.504Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.516Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:34:22.516Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.534Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:22.534Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.543Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:34:22.543Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.558Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:22.559Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:22.566Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:34:22.567Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:47.908Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:34:47.908Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:34:47.918Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:34:47.918Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:34:49.814Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:34:49.814Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:34:49.818Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:34:49.818Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:34:50.502Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:34:50.502Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:50.503Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:34:50.506Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:50.506Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:34:50.507Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:50.507Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:34:50.508Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:52.307Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:34:52.307Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:34:52.309Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:34:52.310Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:34:52.499Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:52.500Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.524Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:52.525Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.532Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:52.532Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.557Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:52.557Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.598Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:52.598Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.616Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:34:52.616Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.620Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:34:52.620Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.636Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:34:52.636Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:34:52.872Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:34:52.872Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:52.873Z] error: <httpProxy> Error calling http://192.168.82.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:34:52.873Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:52.874Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANCommonIFC1...
+[2024-09-02T10:34:52.874Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:34:52.874Z] error: <httpProxy> Error calling http://192.168.81.1:49000/igdupnp/control/WANIPConn1...
+[2024-09-02T10:34:52.875Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:49000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 49000
+  }
+]
+[2024-09-02T10:35:22.589Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:35:22.590Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.590Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:35:22.590Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.606Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:35:22.606Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.619Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:22.619Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.623Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:22.623Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.636Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:22.637Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.653Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:22.653Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.657Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:22.657Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.677Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:22.677Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.678Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:35:22.679Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:22.699Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:35:22.699Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.691Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:52.691Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.710Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:52.711Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.714Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:52.715Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.727Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:52.729Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.730Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:52.730Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.741Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:35:52.741Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.745Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:35:52.746Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:35:52.770Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:35:52.771Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:15.306Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:36:15.306Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:36:15.311Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:36:15.311Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:36:16.873Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:36:16.873Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:36:16.874Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:36:16.874Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:36:19.083Z] error: <httpProxy> Error calling http://192.168.81.1/...
+[2024-09-02T10:36:19.084Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.81.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.81.1',
+    port: 80
+  }
+]
+[2024-09-02T10:36:19.086Z] error: <httpProxy> Error calling http://192.168.82.1/...
+[2024-09-02T10:36:19.089Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.82.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.82.1',
+    port: 80
+  }
+]
+[2024-09-02T10:36:22.712Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:36:22.713Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.713Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:36:22.713Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.730Z] error: <httpProxy> Error calling https://homeassistant-prod-1.srv-prod-7.home.clcreative.de/api/template...
+[2024-09-02T10:36:22.730Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND homeassistant-prod-1.srv-prod-7.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'homeassistant-prod-1.srv-prod-7.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.763Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:22.763Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.766Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:22.767Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.778Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:22.778Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.787Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:22.788Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.797Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:22.797Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.806Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:22.806Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.812Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:36:22.812Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:22.834Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:36:22.834Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.843Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:52.843Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.859Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:52.859Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.863Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:52.863Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.878Z] error: <httpProxy> Error calling https://sw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:52.879Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.882Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:36:52.883Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.894Z] error: <httpProxy> Error calling https://fw-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:52.895Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND fw-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'fw-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:52.898Z] error: <httpProxy> Error calling https://nas-prod-1.home.clcreative.de/...
+[2024-09-02T10:36:52.898Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nas-prod-1.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nas-prod-1.home.clcreative.de'
+  }
+]
+[2024-09-02T10:36:53.042Z] error: <httpProxy> Error calling https://prx-prod-2.home.clcreative.de:8006/...
+[2024-09-02T10:36:53.042Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND prx-prod-2.home.clcreative.de
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'prx-prod-2.home.clcreative.de'
+  }
+]
